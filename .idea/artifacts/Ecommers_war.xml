@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Ecommers:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="Ecommers.war">
+      <element id="artifact" artifact-name="Ecommers:war exploded" />
+      <element id="library" level="project" name="jstl" />
+      <element id="library" level="project" name="mysql-connector-java-5.1" />
+    </root>
+  </artifact>
+</component>
