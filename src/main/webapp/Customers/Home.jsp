@@ -48,15 +48,13 @@
                     <li class="nav-item">
                         <a href="#" class="nav-link" style="font-size:x-large">Cart</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link" style="font-size:x-large">Favorite</a>
                     </li>
                     <li class="nav-item">
-                        <form id="form2" action="#">
-                            <input type="submit" class="btn btn-info"  value="Serach" >
-                        </form>
                         <a href="#" class="nav-link" style="font-size:x-large">Favorite</a>
-                        <asp:LinkButton ID="LinkButton1" runat="server" Text="Log out" CssClass="nav-link" Font-Size="X-Large" OnClick="LinkButton1_Click" />
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" style="font-size:x-large">Profile</a>
                     </li>
 
                 </ul>
@@ -115,12 +113,10 @@
                 <div class="card h-100">
                     <h4 class="card-header">Clothes</h4>
                     <div class="card-body">
-                        <asp:Image ID="Image1" runat="server" ImageUrl="~/Image/cothes.jpg" />
-
+                        <img src="Image/cothes.jpg" width="300px" height="300px">
                     </div>
                     <div class="card-footer">
-                        <asp:Button ID="btn_btnClothes" runat="server" Text="See More" CssClass="btn btn-primary" OnClick="Button1_Click"/>
-
+                        <a href="#" class="btn btn-primary"> See More</a>
                     </div>
                 </div>
             </div>
@@ -128,11 +124,10 @@
                 <div class="card h-100">
                     <h4 class="card-header">Technology</h4>
                     <div class="card-body">
-                        <asp:Image ID="Image2" runat="server" ImageUrl="~/Image/Compter1.jpg" Width="300px" Height="300px"  />
+                        <img src="Image/Compter1.jpg" width="300px" height="300px">
                     </div>
                     <div class="card-footer">
-                        <asp:Button ID="btn_Tec" runat="server" Text="See More" CssClass="btn btn-primary" OnClick="btn_Tec_Click" />
-
+                        <a href="#" class="btn btn-primary"> See More</a>
                     </div>
                 </div>
             </div>
@@ -145,27 +140,27 @@
                         <table >
                             <tr>
                                 <td style="width:25%">
-                                    <asp:Image ID="Image3" runat="server" ImageUrl="~/Image/ساعات.jpg" Width="150" Height="150"   />
+                                    <img src="Image/ساعات.jpg" width="150px" height="150px">
                                 </td>
                                 <td  style="width:25%">
-                                    <asp:Image ID="Image4" runat="server" ImageUrl="~/Image/furnitre.jpg" Width="150" Height="150" />
+                                    <img src="Image/furnitre.jpg" width="150px" height="150px">
                                 </td>
                             </tr>
                             <tr>
                                 <td  style="width:25%">
-                                    <asp:Image ID="Image6" runat="server" ImageUrl="~/Image/عطور.jpg" Width="150" Height="150" />
+                                    <img src="Image/عطور.jpg" width="150px" height="150px">
                                 </td>
                                 <td  style="width:25%">
-                                    <asp:Image ID="Image5" runat="server" ImageUrl="~/Image/عطور.jpg" Width="150" Height="150" />
+                                    <img src="Image/عطور.jpg" width="150px" height="150px">
                                 </td>
                             </tr>
                         </table>
 
 
+
                     </div>
                     <div class="card-footer">
-                        <asp:Button ID="btn_All" runat="server" Text="See More" CssClass="btn btn-primary" OnClick="btn_All_Click" />
-
+                        <a href="#" class="btn btn-primary"> See More</a>
                     </div>
                 </div>
             </div>

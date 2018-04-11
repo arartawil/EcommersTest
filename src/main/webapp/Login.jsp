@@ -64,7 +64,7 @@
                                     <i class="fa fa-key"></i>
                                 </div>
                             </div>
-                            <form id="form2" action="${pageContext.request.contextPath}/loginreg" method="post" >
+                            <form id="form2" action="/loginreg" method="post" >
                             <div class="form-bottom">
                                 <div class="login-form">
                                     <div class="form-group">
@@ -113,7 +113,7 @@
                                     <i class="fa fa-pencil"></i>
                                 </div>
                             </div>
-                            <form id="form3"  action="/loginreg" method="post">
+                            <form id="form3"  action="index.jsp" method="post">
                             <div class="form-bottom">
                                 <div class="registration-form">
                                     <div class="form-group">
@@ -142,12 +142,15 @@
                                     <input type="submit" class="btn btn-info" style="font-size: xx-large" name="button1" value="Sign Up" >
 
                                     <div class="form-group" style="visibility: hidden">
-                                        <div class="alert alert-success"  id="good"    >
+
+
+                                            <div class="alert alert-success"  id="good"    >
                                             <strong>Done</strong> Register Don.....
-                                        </div>
-                                        <div class="alert alert-danger" id="dangers"  style="visibility: hidden">
+                                            </div>
+                                            <div class="alert alert-danger" id="dangers"  style="visibility: hidden">
                                             <strong>Not Done</strong> Username or Email  Used .... <br />try anther
-                                        </div>
+                                            </div>
+
                                     </div>
                                 </div>
                             </div>
